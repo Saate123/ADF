@@ -1,6 +1,7 @@
 import React from 'react'
-import pix from '../Assets/Hobby.png'
-import dp from '../Assets/eastern-woman 1.png'
+import pix from '../Assets/family.jpg'
+import dp from '../Assets/image3.jpg'
+import dp2 from '../Assets/image4.jpg'
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Pagination, Navigation, Autoplay  } from "swiper/modules"; // Correct module imports
 import "swiper/css";
@@ -9,35 +10,35 @@ import LazyLoad from 'react-lazyload';
 
 
 const Testimonial = [
-    {
-      id: 1,
-      image: dp,
-      name:'Artemisia Udinese',
-      title: "Marketing Specialist",
-      desc: "Fusce venenatis tellus a felis scelerisque, non pulvinar est pellentesque.",
-    },
-    {
-      id: 2,
-      image: dp,
-      name:'Artemisia Udinese',
-      title: "Marketing Specialist",
-      desc: "Fusce venenatis tellus a felis scelerisque, non pulvinar est pellentesque.",
-    },
-    {
-      id: 3,
-      image: dp,
-      name:'Artemisia Udinese',
-      title: "Marketing Specialist",
-      desc: "Fusce venenatis tellus a felis scelerisque, non pulvinar est pellentesque.",
-    },
-    {
-      id: 4,
-      image: dp,
-      name:'Artemisia Udinese',
-      title: "Marketing Specialist",
-      desc: "Fusce venenatis tellus a felis scelerisque, non pulvinar est pellentesque.",
-    },
-  ];
+  {
+    id: 1,
+    image: dp2,
+    name: "Chinedu O., USA",
+    title: "A Seamless Homeownership Journey",
+    desc: "African Diaspora Property Limited made my dream of owning a home in Nigeria a reality. Their team guided me through every step, ensuring a smooth and transparent process. I now own a beautiful property without stress!",
+  },
+  {
+    id: 2,
+    image: dp,
+    name: "Aisha M., UK",
+    title: "Trustworthy and Professional Service",
+    desc: "I was initially skeptical about investing in real estate from abroad, but African Diaspora Property Limited exceeded my expectations. Their professionalism and expertise reassured me, and I successfully acquired a home for my family in Lagos.",
+  },
+  {
+    id: 3,
+    image: dp2,
+    name: "Kwame A., Canada",
+    title: "Reliable and Hassle-Free Process",
+    desc: "As someone in the diaspora, I struggled to find a reliable property service. African Diaspora Property Limited not only provided great options but also handled everything with integrity. I highly recommend them to anyone looking for a stress-free home-buying experience!",
+  },
+  {
+    id: 4,
+    image: dp,
+    name: "Fatou S., France",
+    title: "Investing Made Easy and Secure",
+    desc: "I had always wanted to invest in Nigerian real estate but was unsure where to start. African Diaspora Property Limited provided expert guidance, legal assurance, and access to great properties. Now, I own a secure investment with high returns!",
+  },
+];
 
 const Testimony = () => {
   return (

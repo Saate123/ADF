@@ -6,33 +6,29 @@ import "swiper/css/pagination";
 import "swiper/css/navigation";
 import { LuLocateFixed } from "react-icons/lu";
 import { Link } from "react-router-dom";
-import pix from "../Assets/Frame 2072.png";
+import pix from "../Assets/house1.jpg";
+import pix1 from "../Assets/house2.jpg";
+import pix2 from "../Assets/images__4__360.jpg";
 import LazyLoad from 'react-lazyload';
 
 const propertiesList = [
   {
     id: 1,
     image: pix,
-    title: "Tranquil Haven in the Woods",
+    title: "4-Bedroom Duplex",
     location: "South England",
   },
   {
     id: 2,
-    image: pix,
-    title: "Modern Apartment in the City",
+    image: pix1,
+    title: "5-Bedroom Terrance Apartment",
     location: "Central London",
   },
   {
     id: 3,
-    image: pix,
+    image: pix2,
     title: "Cozy Cottage Near the Lake",
     location: "Lake District",
-  },
-  {
-    id: 4,
-    image: pix,
-    title: "Spacious Villa with a Pool",
-    location: "Cornwall",
   },
 ];
 
@@ -42,10 +38,6 @@ const Properties = () => {
       <div className="props">
         <div>
           <h4>CHECKOUT OUR NEW LISTED PROPERTIES</h4>
-          <p>
-            Donec porttitor euismod dignissim. Nullam a lacinia ipsum, nec
-            dignissim purus. Nulla convallis ipsum molestie nibh.
-          </p>
         </div>
         <label htmlFor="">
           <LuLocateFixed className="l-i" />

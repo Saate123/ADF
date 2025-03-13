@@ -7,52 +7,51 @@ const Faqs = [
   {
     id: 1,
     ques: "What you should expect?",
-    ans: `
-    1. Sports and wellbeing centre
-2. Children playground
-3. Gym centre
-4. Cinema
-5. Mini Park for picnics and relaxations
-6. Streetlights with CCTV
-7. Solar Light (on request)
-8. Estate close security system
-9. Good road networks and drainages
-10. Trees and shades of green areas.
-11. Waste management system to keep estate clean.
-    `,
+    ans: [
+      "Sports and wellbeing centre",
+      "Children playground",
+      "Gym centre",
+      "Cinema",
+      "Mini Park for picnics and relaxations",
+      "Streetlights with CCTV",
+      "Solar Light (on request)",
+      "Estate close security system",
+      "Good road networks and drainages",
+      "Trees and shades of green areas",
+      "Waste management system to keep estate clean.",
+    ],
   },
   {
     id: 2,
     ques: "What we want you to do?",
-    ans: `1. Pick the house of your choice from the multiple options.
-2. Pay your deposit of 20% with 12 months and split the payment balance of 80% over
-8 years (T&amp;C Apply).
-3. Monthly payment of at least 100 USD monthly direct debit or 1200 USD annually until
-you are ready to conclude payment. This is for the 80% balance.`,
+    ans: [
+      "Pick the house of your choice from the multiple options.",
+      "Pay your deposit of 20% with 12 months and split the payment balance of 80% over 8 years (T&C Apply).",
+      "Monthly payment of at least 100 USD monthly direct debit or 1200 USD annually until you are ready to conclude payment. This is for the 80% balance.",
+    ],
   },
   {
     id: 3,
     ques: "What we will do for you?",
-    ans: `1. Give you your document of land with C of O after payment 20%. House plan you
-picked, survey and approval.
-2. Instant allocation of your plot after payment of 20%
-3. Monthly video update of the project.
-4. Account statement monthly to know what you paid and what was done.`,
+    ans: [
+      "Give you your document of land with C of O after payment of 20%. House plan you picked, survey, and approval.",
+      "Instant allocation of your plot after payment of 20%.",
+      "Monthly video update of the project.",
+      "Account statement monthly to know what you paid and what was done.",
+    ],
   },
   {
     id: 4,
     ques: "What about investors?",
-    ans: "You are welcome to invest with agreed return of investment you will love. This can be discussed with our finance team when you email of call.",
+    ans: [
+      "You are welcome to invest with an agreed return on investment you will love.",
+      "This can be discussed with our finance team when you email or call.",
+    ],
   },
   {
     id: 5,
     ques: "Locations?",
-    ans: `Currently we have development of our Diaspora Estate at the following locations.
-1. Benin city
-2. Ibadan
-3. Abeokuta
-4. Akure
-5. Enugu`,
+    ans: ["Benin city", "Ibadan", "Abeokuta", "Akure", "Enugu"],
   },
 ];
 
@@ -72,7 +71,7 @@ const Faq = () => {
       <div className="faq-c">
         <div className="f-img">
           <LazyLoad>
-            <img src={pix} alt="" />
+            <img src={pix} alt="FAQ" />
           </LazyLoad>
         </div>
 
@@ -89,7 +88,7 @@ const Faq = () => {
               <div className="qa-c">
                 <h2>
                   <span className="quess">
-                    {faq.id}. {faq.ques}{" "}
+                    {faq.id}. {faq.ques}
                   </span>
                   <span
                     className="toggle-icon"
@@ -103,7 +102,15 @@ const Faq = () => {
                     )}
                   </span>
                 </h2>
-                {activeIds.includes(faq.id) && <p>{faq.ans}</p>}
+                {activeIds.includes(faq.id) && (
+                  <ul>
+                    {Array.isArray(faq.ans) ? (
+                      faq.ans.map((item, index) => <li key={index}>{item}</li>)
+                    ) : (
+                      <li>{faq.ans}</li>
+                    )}
+                  </ul>
+                )}
               </div>
             </div>
           ))}
