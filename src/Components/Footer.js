@@ -87,7 +87,7 @@ const Footer = () => {
             <div className="f-contacts">
               <a href="">
                 <MdOutlineMailOutline className="f-i" />
-                <span>support@rezilla.com</span>
+                <span>info@africadisporasproperties.com</span>
               </a>
             </div>
 
