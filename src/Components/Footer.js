@@ -79,7 +79,8 @@ const Footer = () => {
             <div className="f-contacts">
               <a href="">
                 <RiPhoneFill className="f-i" />
-                <span>+1 206-214-2298</span>
+                <span>+2348158665957,</span>
+                <span> +2348162836838</span>
               </a>
             </div>
 
@@ -93,7 +94,7 @@ const Footer = () => {
             <div className="f-contacts">
               <a href="">
                 <FaGlobe className="f-i" />
-                <span>2728 Hickory StreetSalt Lake City, UT 84104</span>
+                <span>ADP junction, Airport road , Benin city Nigeria. </span>
               </a>
             </div>
           </div>

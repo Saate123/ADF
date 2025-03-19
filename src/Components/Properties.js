@@ -6,9 +6,12 @@ import "swiper/css/pagination";
 import "swiper/css/navigation";
 import { LuLocateFixed } from "react-icons/lu";
 import { Link } from "react-router-dom";
-import pix from "../Assets/house1.jpg";
-import pix1 from "../Assets/house2.jpg";
-import pix2 from "../Assets/images__4__360.jpg";
+import pix from "../Assets/proprty1.jpg";
+import pix1 from "../Assets/proprty2.jpg";
+import pix2 from "../Assets/proprty3.jpg";
+import pix3 from "../Assets/proprty4.jpg";
+import pix4 from "../Assets/proprty5.jpg";
+import pix5 from "../Assets/proprty6.jpg";
 import LazyLoad from 'react-lazyload';
 
 const propertiesList = [
@@ -16,19 +19,37 @@ const propertiesList = [
     id: 1,
     image: pix,
     title: "4-Bedroom Duplex",
-    location: "South England",
+    location: "Benin City",
   },
   {
     id: 2,
     image: pix1,
     title: "5-Bedroom Terrance Apartment",
-    location: "Central London",
+    location: "Benin City",
   },
   {
     id: 3,
     image: pix2,
     title: "Cozy Cottage Near the Lake",
-    location: "Lake District",
+    location: "Benin City",
+  },
+  {
+    id: 4,
+    image: pix3,
+    title: "Cozy Cottage Near the Lake",
+    location: "Benin City",
+  },
+  {
+    id: 5,
+    image: pix4,
+    title: "Cozy Cottage Near the Lake",
+    location: "Benin City",
+  },
+  {
+    id: 6,
+    image: pix5,
+    title: "Cozy Cottage Near the Lake",
+    location: "Benin City",
   },
 ];
 

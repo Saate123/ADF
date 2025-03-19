@@ -14,7 +14,7 @@ const Faqs = [
       "Cinema",
       "Mini Park for picnics and relaxations",
       "Streetlights with CCTV",
-      "Solar Light (on request)",
+      "Solar Electricity System",
       "Estate close security system",
       "Good road networks and drainages",
       "Trees and shades of green areas",
