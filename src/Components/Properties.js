@@ -8,7 +8,6 @@ import { LuLocateFixed } from "react-icons/lu";
 import { Link } from "react-router-dom";
 import pix from "../Assets/proprty1.jpg";
 import pix1 from "../Assets/proprty2.jpg";
-import pix2 from "../Assets/proprty3.jpg";
 import pix3 from "../Assets/proprty4.jpg";
 import pix4 from "../Assets/proprty5.jpg";
 import pix5 from "../Assets/proprty6.jpg";
@@ -29,26 +28,20 @@ const propertiesList = [
   },
   {
     id: 3,
-    image: pix2,
-    title: "Cozy Cottage Near the Lake",
+    image: pix3,
+    title: "2-Bedroom Duplex",
     location: "Benin City",
   },
   {
     id: 4,
-    image: pix3,
-    title: "Cozy Cottage Near the Lake",
+    image: pix4,
+    title: "3-Bedroom Duplex",
     location: "Benin City",
   },
   {
     id: 5,
-    image: pix4,
-    title: "Cozy Cottage Near the Lake",
-    location: "Benin City",
-  },
-  {
-    id: 6,
     image: pix5,
-    title: "Cozy Cottage Near the Lake",
+    title: "2-Bedroom Apartment Flat",
     location: "Benin City",
   },
 ];
