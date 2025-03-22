@@ -24,25 +24,25 @@ const propertiesList = [
     id: 2,
     image: pix1,
     title: "5-Bedroom Terrance Apartment",
-    location: "Benin City",
+    location: "Port Harcourt",
   },
   {
     id: 3,
     image: pix3,
     title: "2-Bedroom Duplex",
-    location: "Benin City",
+    location: "Delta",
   },
   {
     id: 4,
     image: pix4,
     title: "3-Bedroom Duplex",
-    location: "Benin City",
+    location: "Uyo",
   },
   {
     id: 5,
     image: pix5,
     title: "2-Bedroom Apartment Flat",
-    location: "Benin City",
+    location: "Enugu",
   },
 ];
 
