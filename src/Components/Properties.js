@@ -18,7 +18,7 @@ const propertiesList = [
     id: 1,
     image: pix,
     title: "4-Bedroom Duplex",
-    location: "Benin City",
+    location: "Ibadan",
   },
   {
     id: 2,
@@ -29,14 +29,14 @@ const propertiesList = [
   {
     id: 3,
     image: pix3,
-    title: "2-Bedroom Duplex",
-    location: "Benin City",
+    title: "3-Bedroom Terrance Apartment",
+    location: "Akure",
   },
   {
     id: 4,
     image: pix4,
     title: "3-Bedroom Duplex",
-    location: "Benin City",
+    location: "Abeokuta",
   },
   {
     id: 5,
